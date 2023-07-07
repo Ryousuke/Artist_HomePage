@@ -68,3 +68,17 @@
     line-height: 28px;
     margin-top: 25px;
 }
+
+
+.Youtube iframe {
+    width: 60%;
+    height: 60%;
+    max-width: 560px;
+}
+
+@media(max-width:800px){
+    .Youtube iframe {
+        width: 100%;
+        max-width: 560px;
+    }
+}
